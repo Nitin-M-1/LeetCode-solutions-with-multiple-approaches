@@ -26,10 +26,6 @@ class Solution:
                             result.append(i)
         return result
                     
-                
-                
-
-
 
 obj = Solution()
 print(obj.findKDistantIndices(nums, key, k))
