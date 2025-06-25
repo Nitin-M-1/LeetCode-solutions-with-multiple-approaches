@@ -25,8 +25,6 @@ class Solution:
                         for i in range(index - k + 1, index + k + 1 if index + k < len(nums) else len(nums)):
                             result.append(i)
         return result
-                    
-
 obj = Solution()
 print(obj.findKDistantIndices(nums, key, k))
         
