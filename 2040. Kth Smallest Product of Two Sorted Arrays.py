@@ -24,3 +24,5 @@ class Solution:
 
 # Method 2
 # output : ❌ "Time Limit Exceeded"
+
+
