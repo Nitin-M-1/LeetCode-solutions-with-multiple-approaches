@@ -1,5 +1,5 @@
 # 2311. Longest Binary Subsequence Less Than or Equal to K
-# 
+# Method 1
 class Solution:
     def longestSubsequence(self, s: str, k: int) -> int:
         stringLength = 0
@@ -13,3 +13,7 @@ class Solution:
                     stringLength += 1
                     k -= bitV
         return stringLength
+
+
+# Time Complexity : O(n)
+# space Complexity : O(1)
