@@ -14,6 +14,5 @@ class Solution:
                     k -= bitV
         return stringLength
 
-
 # Time Complexity : O(n)
 # space Complexity : O(1)
